@@ -27,7 +27,7 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2                &kp N3    &kp N4     &kp N5  &sk LALT                                                   &mo 4           &kp N6  &kp N7    &kp N8        &kp N9    &kp N0    &kp MINUS
+&kp EQUAL  &kp N1     &kp N2                &kp N3    &kp N4     &kp N5  &mo 3                                                      &mo 4           &kp N6  &kp N7    &kp N8        &kp N9    &kp N0    &kp MINUS
 &kp TAB    &kp Q      &kp W                 &kp E     &kp R      &kp T   &sk LSHIFT                                                 &sk LEFT_SHIFT  &kp Y   &kp U     &kp I         &kp O     &kp P     &kp BSLH
 &kp ESC    &kp A      &kp S                 &kp D     &kp F      &kp G   &sk LCTRL   &kp LCTRL  &kp LALT      &kp END    &kp RCTRL  &sk LCTRL       &kp H   &kp J     &kp K         &kp L     &kp SEMI  &kp SQT
 &kp LSHFT  &kp Z      &kp X                 &kp C     &kp V      &kp B                          &kp HOME      &kp PG_UP                             &kp N   &kp M     &kp COMMA     &kp DOT   &kp FSLH  &kp RSHFT
@@ -37,11 +37,11 @@
 
         programming {
             bindings = <
-&trans  &trans           &trans          &trans           &trans                &trans  &trans                                      &trans  &trans  &trans                                  &trans                      &trans                          &trans  &trans
-&trans  &kp N1           &kp N2          &kp N3           &kp N4                &kp N5  &trans                                      &trans  &kp N6  &kp N7                                  &kp N8                      &kp N9                          &kp N0  &trans
-&trans  &kp EXCLAMATION  &sk LEFT_SHIFT  &mt UNDER MINUS  &mt KP_PLUS KP_EQUAL  &mo 2   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACE LEFT_BRACE  &mt RIGHT_BRACKET LEFT_BRACKET  &trans  &trans
-&trans  &trans           &trans          &sk LCTRL        &trans                &trans                  &trans      &trans                  &trans  &trans                                  &trans                      &trans                          &trans  &trans
-&trans  &trans           &trans          &trans           &trans                        &trans  &trans  &trans      &trans  &trans  &trans          &trans                                  &trans                      &trans                          &trans  &trans
+&trans  &trans           &trans          &trans     &trans             &trans  &trans                                      &trans  &trans  &trans                                  &trans                      &trans                          &trans  &trans
+&trans  &kp N1           &kp N2          &kp N3     &kp N4             &kp N5  &trans                                      &trans  &kp N6  &kp N7                                  &kp N8                      &kp N9                          &kp N0  &trans
+&trans  &kp EXCLAMATION  &kp UNDERSCORE  &kp MINUS  &mt KP_PLUS EQUAL  &mo 2   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &mt RIGHT_PARENTHESIS LEFT_PARENTHESIS  &mt RIGHT_BRACE LEFT_BRACE  &mt RIGHT_BRACKET LEFT_BRACKET  &trans  &trans
+&trans  &trans           &kp LC(X)       &kp LC(C)  &kp LC(V)          &trans                  &trans      &trans                  &trans  &trans                                  &trans                      &trans                          &trans  &trans
+&trans  &trans           &trans          &trans     &trans                     &trans  &trans  &trans      &trans  &trans  &trans          &trans                                  &trans                      &trans                          &trans  &trans
             >;
         };
 
@@ -58,7 +58,7 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 0                                      &mo 4   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &none                                       &mo 4   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
